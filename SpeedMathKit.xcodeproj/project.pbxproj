@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7433E0332E45405100B9B977 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7433E0292E45405100B9B977 /* AppDelegate.swift */; };
+		7433E0342E45405100B9B977 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7433E0302E45405100B9B977 /* SceneDelegate.swift */; };
+		7433E0362E45405100B9B977 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7433E02A2E45405100B9B977 /* Assets.xcassets */; };
+		7433E0382E45405100B9B977 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7433E02D2E45405100B9B977 /* LaunchScreen.storyboard */; };
+		7433E0392E45405100B9B977 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7433E02F2E45405100B9B977 /* Main.storyboard */; };
+		7433E0432E45409300B9B977 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7433E0422E45409300B9B977 /* StatsView.swift */; };
+		7433E0442E45409300B9B977 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7433E03C2E45409300B9B977 /* GameView.swift */; };
+		7433E0452E45409300B9B977 /* GameOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7433E03B2E45409300B9B977 /* GameOverView.swift */; };
+		7433E0462E45409300B9B977 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7433E0402E45409300B9B977 /* Models.swift */; };
+		7433E0472E45409300B9B977 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7433E0412E45409300B9B977 /* SettingsView.swift */; };
+		7433E0482E45409300B9B977 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7433E03D2E45409300B9B977 /* GameViewModel.swift */; };
+		7433E0492E45409300B9B977 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7433E03A2E45409300B9B977 /* ContentView.swift */; };
+		7433E04A2E45409300B9B977 /* MathProblemGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7433E03F2E45409300B9B977 /* MathProblemGenerator.swift */; };
+		7433E04B2E45409300B9B977 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7433E03E2E45409300B9B977 /* HomeView.swift */; };
+		7433E04F2E4540D500B9B977 /* OneSignalExtension in Frameworks */ = {isa = PBXBuildFile; productRef = 7433E04E2E4540D500B9B977 /* OneSignalExtension */; };
+		7433E0512E4540D500B9B977 /* OneSignalFramework in Frameworks */ = {isa = PBXBuildFile; productRef = 7433E0502E4540D500B9B977 /* OneSignalFramework */; };
+		7433E0532E4540D500B9B977 /* OneSignalInAppMessages in Frameworks */ = {isa = PBXBuildFile; productRef = 7433E0522E4540D500B9B977 /* OneSignalInAppMessages */; };
+		7433E0552E4540D500B9B977 /* OneSignalLocation in Frameworks */ = {isa = PBXBuildFile; productRef = 7433E0542E4540D500B9B977 /* OneSignalLocation */; };
+		7433E05A2E45412700B9B977 /* InternetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7433E0572E45412700B9B977 /* InternetViewController.swift */; };
+		7433E05B2E45412700B9B977 /* LoaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7433E0582E45412700B9B977 /* LoaderViewController.swift */; };
+		7433E05C2E45412700B9B977 /* CheckLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7433E0562E45412700B9B977 /* CheckLink.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0606DED8DE5AE97DEAF551B6 /* Pods-SpeedMathKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeedMathKit.release.xcconfig"; path = "Target Support Files/Pods-SpeedMathKit/Pods-SpeedMathKit.release.xcconfig"; sourceTree = "<group>"; };
+		534DDBAE58FF9E1D8FA6B875 /* Pods-SpeedMathKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeedMathKit.debug.xcconfig"; path = "Target Support Files/Pods-SpeedMathKit/Pods-SpeedMathKit.debug.xcconfig"; sourceTree = "<group>"; };
+		7433E0112E45403700B9B977 /* SpeedMathKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeedMathKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7433E0292E45405100B9B977 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7433E02A2E45405100B9B977 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7433E02B2E45405100B9B977 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7433E02C2E45405100B9B977 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7433E02E2E45405100B9B977 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7433E0302E45405100B9B977 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7433E03A2E45409300B9B977 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7433E03B2E45409300B9B977 /* GameOverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverView.swift; sourceTree = "<group>"; };
+		7433E03C2E45409300B9B977 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		7433E03D2E45409300B9B977 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		7433E03E2E45409300B9B977 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		7433E03F2E45409300B9B977 /* MathProblemGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathProblemGenerator.swift; sourceTree = "<group>"; };
+		7433E0402E45409300B9B977 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		7433E0412E45409300B9B977 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		7433E0422E45409300B9B977 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		7433E0562E45412700B9B977 /* CheckLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckLink.swift; sourceTree = "<group>"; };
+		7433E0572E45412700B9B977 /* InternetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetViewController.swift; sourceTree = "<group>"; };
+		7433E0582E45412700B9B977 /* LoaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderViewController.swift; sourceTree = "<group>"; };
+		917B4642049E21F7D0566B19 /* Pods_SpeedMathKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpeedMathKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7433E00E2E45403700B9B977 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7433E0532E4540D500B9B977 /* OneSignalInAppMessages in Frameworks */,
+				7433E0512E4540D500B9B977 /* OneSignalFramework in Frameworks */,
+				7433E0552E4540D500B9B977 /* OneSignalLocation in Frameworks */,
+				7433E04F2E4540D500B9B977 /* OneSignalExtension in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C0AC1BBC06E7AEFB3C0B908 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				917B4642049E21F7D0566B19 /* Pods_SpeedMathKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7433E0082E45403700B9B977 = {
+			isa = PBXGroup;
+			children = (
+				7433E0322E45405100B9B977 /* SpeedMathKit */,
+				7433E0122E45403700B9B977 /* Products */,
+				E5F7952A518EC77839F1DF26 /* Pods */,
+				1C0AC1BBC06E7AEFB3C0B908 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7433E0122E45403700B9B977 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7433E0112E45403700B9B977 /* SpeedMathKit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7433E0322E45405100B9B977 /* SpeedMathKit */ = {
+			isa = PBXGroup;
+			children = (
+				7433E04C2E4540A300B9B977 /* View */,
+				7433E0292E45405100B9B977 /* AppDelegate.swift */,
+				7433E02A2E45405100B9B977 /* Assets.xcassets */,
+				7433E02B2E45405100B9B977 /* Info.plist */,
+				7433E02D2E45405100B9B977 /* LaunchScreen.storyboard */,
+				7433E02F2E45405100B9B977 /* Main.storyboard */,
+				7433E0302E45405100B9B977 /* SceneDelegate.swift */,
+			);
+			path = SpeedMathKit;
+			sourceTree = "<group>";
+		};
+		7433E04C2E4540A300B9B977 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7433E03A2E45409300B9B977 /* ContentView.swift */,
+				7433E03B2E45409300B9B977 /* GameOverView.swift */,
+				7433E03C2E45409300B9B977 /* GameView.swift */,
+				7433E03D2E45409300B9B977 /* GameViewModel.swift */,
+				7433E03E2E45409300B9B977 /* HomeView.swift */,
+				7433E03F2E45409300B9B977 /* MathProblemGenerator.swift */,
+				7433E0402E45409300B9B977 /* Models.swift */,
+				7433E0412E45409300B9B977 /* SettingsView.swift */,
+				7433E0422E45409300B9B977 /* StatsView.swift */,
+				7433E0592E45412700B9B977 /* LoadingView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7433E0592E45412700B9B977 /* LoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				7433E0562E45412700B9B977 /* CheckLink.swift */,
+				7433E0572E45412700B9B977 /* InternetViewController.swift */,
+				7433E0582E45412700B9B977 /* LoaderViewController.swift */,
+			);
+			path = LoadingView;
+			sourceTree = "<group>";
+		};
+		E5F7952A518EC77839F1DF26 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				534DDBAE58FF9E1D8FA6B875 /* Pods-SpeedMathKit.debug.xcconfig */,
+				0606DED8DE5AE97DEAF551B6 /* Pods-SpeedMathKit.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7433E0102E45403700B9B977 /* SpeedMathKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7433E0242E45403800B9B977 /* Build configuration list for PBXNativeTarget "SpeedMathKit" */;
+			buildPhases = (
+				17AA8DC6CB48C720DAC2A119 /* [CP] Check Pods Manifest.lock */,
+				7433E00D2E45403700B9B977 /* Sources */,
+				7433E00E2E45403700B9B977 /* Frameworks */,
+				7433E00F2E45403700B9B977 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpeedMathKit;
+			productName = SpeedMathKit;
+			productReference = 7433E0112E45403700B9B977 /* SpeedMathKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7433E0092E45403700B9B977 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					7433E0102E45403700B9B977 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+				};
+			};
+			buildConfigurationList = 7433E00C2E45403700B9B977 /* Build configuration list for PBXProject "SpeedMathKit" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7433E0082E45403700B9B977;
+			packageReferences = (
+				7433E04D2E4540D500B9B977 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */,
+			);
+			productRefGroup = 7433E0122E45403700B9B977 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7433E0102E45403700B9B977 /* SpeedMathKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7433E00F2E45403700B9B977 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7433E0362E45405100B9B977 /* Assets.xcassets in Resources */,
+				7433E0382E45405100B9B977 /* LaunchScreen.storyboard in Resources */,
+				7433E0392E45405100B9B977 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17AA8DC6CB48C720DAC2A119 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpeedMathKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7433E00D2E45403700B9B977 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7433E05A2E45412700B9B977 /* InternetViewController.swift in Sources */,
+				7433E05B2E45412700B9B977 /* LoaderViewController.swift in Sources */,
+				7433E05C2E45412700B9B977 /* CheckLink.swift in Sources */,
+				7433E0332E45405100B9B977 /* AppDelegate.swift in Sources */,
+				7433E0342E45405100B9B977 /* SceneDelegate.swift in Sources */,
+				7433E0432E45409300B9B977 /* StatsView.swift in Sources */,
+				7433E0442E45409300B9B977 /* GameView.swift in Sources */,
+				7433E0452E45409300B9B977 /* GameOverView.swift in Sources */,
+				7433E0462E45409300B9B977 /* Models.swift in Sources */,
+				7433E0472E45409300B9B977 /* SettingsView.swift in Sources */,
+				7433E0482E45409300B9B977 /* GameViewModel.swift in Sources */,
+				7433E0492E45409300B9B977 /* ContentView.swift in Sources */,
+				7433E04A2E45409300B9B977 /* MathProblemGenerator.swift in Sources */,
+				7433E04B2E45409300B9B977 /* HomeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7433E02D2E45405100B9B977 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7433E02C2E45405100B9B977 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7433E02F2E45405100B9B977 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7433E02E2E45405100B9B977 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7433E0252E45403800B9B977 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 534DDBAE58FF9E1D8FA6B875 /* Pods-SpeedMathKit.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SpeedMathKit/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = home.SpeedMathKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		7433E0262E45403800B9B977 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0606DED8DE5AE97DEAF551B6 /* Pods-SpeedMathKit.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SpeedMathKit/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = home.SpeedMathKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		7433E0272E45403800B9B977 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7433E0282E45403800B9B977 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7433E00C2E45403700B9B977 /* Build configuration list for PBXProject "SpeedMathKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7433E0272E45403800B9B977 /* Debug */,
+				7433E0282E45403800B9B977 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7433E0242E45403800B9B977 /* Build configuration list for PBXNativeTarget "SpeedMathKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7433E0252E45403800B9B977 /* Debug */,
+				7433E0262E45403800B9B977 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7433E04D2E4540D500B9B977 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/OneSignal/OneSignal-iOS-SDK";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.2.14;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7433E04E2E4540D500B9B977 /* OneSignalExtension */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7433E04D2E4540D500B9B977 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */;
+			productName = OneSignalExtension;
+		};
+		7433E0502E4540D500B9B977 /* OneSignalFramework */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7433E04D2E4540D500B9B977 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */;
+			productName = OneSignalFramework;
+		};
+		7433E0522E4540D500B9B977 /* OneSignalInAppMessages */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7433E04D2E4540D500B9B977 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */;
+			productName = OneSignalInAppMessages;
+		};
+		7433E0542E4540D500B9B977 /* OneSignalLocation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7433E04D2E4540D500B9B977 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */;
+			productName = OneSignalLocation;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 7433E0092E45403700B9B977 /* Project object */;
+}
