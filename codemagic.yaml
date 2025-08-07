@@ -8,7 +8,7 @@ workflows:
           XCODE_WORKSPACE: "SpeedMathKit.xcworkspace"
           XCODE_SCHEME: "SpeedMathKit"
           BUNDLE_ID: "com.speedmath1303.d23 "
-          EXTENSION_BUDNLE_ID: "com.speedmath1303.d23 .OneSignalNotificationServiceExtension"
+          EXTENSION_BUDNLE_ID: "com.speedmath1303.d23.OneSignalNotificationServiceExtension"
           APP_STORE_APP_ID: 6746077720
         xcode: latest
         cocoapods: 1.14.2
